@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="Task1.CSS" />
+    <title>LandingPage</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#">ArtGallery</a></div>
+      <ul class="nav__links">
+        <li class="link">Home</li>
+        <li class="link">Features</li>
+        <li class="link">About Us</li>
+        <li class="link">Contact Us</li>
+      </ul>
+      <div class="search__box">
+        <input type="text" placeholder="Search" />
+        <i class="ri-search-line"></i>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="container__left">
+        <div class="content">
+          <h1>A BEAUTIFUL BODY PERISHES,<br />BUT A WORK OF ART DIES NOT.</h1>
+          <p>
+            Art is a visual representation of an object or the idea of a person. It is the way of expressing feelings and emotions in a number of ways. Expressing emotions through art cana be effective way to release feelings before they become too deep.
+          </p>
+          <div class="btns">
+            <button class="read__more">Read More</button>
+            <button class="our__artworks">Our Artworks</button>
+          </div>
+          <div class="chevrons">
+            <span class="chev__left">
+              <i class="ri-arrow-left-s-line"></i>
+            </span>
+            <span class="chev__right">
+              <i class="ri-arrow-right-s-line"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="container__right">
+        <form>
+          <h4>Write Your Message</h4>
+          <div class="form__group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter name"/>
+          </div>
+          <div class="form__group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="user@gmail.com" />
+          </div>
+          <div class="form__group">
+            <label for="message">Message</label>
+            <textarea name="msg" id="msg" placeholder="write your message"></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <div class="bottom__tracker">
+        <span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+  </body>
+</html>
